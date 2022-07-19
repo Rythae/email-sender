@@ -1,4 +1,6 @@
 # email-sender
-![My Image](CONSOLE SUCCESS MESSAGE.png)
 
-![My Image](GMAIL SUCCESS MESSAGE.png)
+<img src="/home/rythae/Documents/email-sender/CONSOLE SUCCESS MESSAGE.png" alt="Alt text" title="Optional title">
+
+
+<img src="/home/rythae/Documents/email-sender/GMAIL SUCCESS MESSAGE.png" alt="Alt text" title="Optional title">
