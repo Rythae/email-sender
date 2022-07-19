@@ -17,14 +17,14 @@ const transporter = nodemailer.createTransport({
   host: "smtp.elasticemail.com",
   port: 2525,
   auth: {
-    user: "ik.ugwuanyi@gmail.com",
-    pass: "AAF3AB7DEC1C8C1BB65391F67B95B8DED4F3",
+    user: process.env.MAIL_SENDER,
+    pass: process.env.PASSWORD,
   },
 });
 
 let mailOptions = {
-  from: "ik.ugwuanyi@gmail.com",
-  to: "auxano42@gmail.com",
+  from: process.env.MAIL_SENDER,
+  to: process.env.MAIL_RECEIVER,
   subject: "Test",
   text: "I am sending an email from nodemailer!",
 };
