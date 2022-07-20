@@ -29,10 +29,13 @@ let mailOptions = {
   text: "I am sending an email from nodemailer!",
 };
 
-transporter.sendMail(mailOptions, (error, info) => {
-  if (error) {
-    return console.log(error.message);
-  }
-  console.log("success");
-});
+app.get('/email', (req, res, next) => {
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      return console.log(error.message);
+    }
+    console.log("success");
+  });
+})
+
 
