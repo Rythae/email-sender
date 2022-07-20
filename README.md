@@ -7,4 +7,4 @@
 
 <img src="https://github.com/Rythae/email-sender/blob/8f155f6245d691eeb3a6d035cd09dc73afdc0974/CONSOLE_SUCCESS_MESSAGE.png" alt="Alt text">
 
-<img src="https://github.com/Rythae/email-sender/blob/8f155f6245d691eeb3a6d035cd09dc73afdc0974/EMAIL_MESSAGE.png" alt="Alt text">
+<img src="https://github.com/Rythae/email-sender/blob/5d0886b656130d1c6cee9c09b17a274d7dec5157/TESTING_NODEMAILER.png" alt="Alt text">
