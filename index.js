@@ -24,8 +24,8 @@ const transporter = nodemailer.createTransport({
 
 let mailOptions = {
   from: process.env.MAIL_SENDER,
-  to: process.env.MAIL_RECEIVER,
-  subject: "Test",
+  to: process.env.MAIL_SENDER,
+  subject: "Testing Nodemailer",
   text: "I am sending an email from nodemailer!",
 };
 
